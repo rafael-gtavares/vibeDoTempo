@@ -46,14 +46,14 @@ O projeto foi organizado de forma modular para garantir escalabilidade e fácil 
 
 ---
 
-## 📝 Autor
-
-Desenvolvido com foco em aprendizado e boas práticas de Front-End por **Rafael Tavares**.
-
----
-
 ### 🔧 Como rodar o projeto localmente
 
 1. Clone o repositório.
 2. Certifique-se de usar um servidor local (como a extensão **Live Server** do VS Code) devido ao uso de módulos ES6.
 3. Abra o arquivo `index.html`.
+
+---
+
+## 📝 Autor
+
+Desenvolvido com foco em aprendizado e boas práticas de Front-End por **Rafael Tavares**.
