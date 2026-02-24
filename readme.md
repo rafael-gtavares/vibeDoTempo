@@ -2,7 +2,7 @@
 
 O **VibeDoTempo** é uma aplicação interativa de previsão do tempo que combina uma interface moderna com dados em tempo real. O projeto foi focado na construção de um código limpo, modular e com foco total na experiência do usuário (UX), utilizando design *Glassmorphism*.
 
-> 🚀 **Confira o projeto online:** [LINK DO SEU DEPLOY AQUI]
+> 🚀 **Confira o projeto online:** [https://rafael-gtavares.github.io/vibeDoTempo/]
 
 ---
 
