@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeDoTempo</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="container-notificacoes"></div>
+
+    <header class="cabecalho">
+        <h1>VibeDoTempo</h1>
+    </header>
+
+    <main class="container">
+        <form class="busca">
+            <input class="input-cidade" type="text" placeholder="Digite o nome da sua cidade: ">
+
+            <button type="submit" class="botao-enviar">
+                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/search--v1.png" alt="Ícone de enviar">
+            </button>
+            
+            <button type="button" class="botao-limpar" style="display: none;">
+                <img src="https://img.icons8.com/ios-glyphs/90/ffffff/multiply.png" alt="Limpar">
+            </button>
+        </form>
+
+        <div class="animacao-carregando" style="display: none;"></div>
+
+        <div class="dados">
+            <h2 class="dados__titulo">
+                <span class="nome-cidade">Bem vindo ao VibeDoTempo</span> 
+                <img class="bandeira" src="" alt="Bandeira do país" style="display: none;">
+            </h2>
+
+            <p class="dados__temperatura"></p>
+
+            <div class="dados__ceu">
+                <img src="https://img.icons8.com/ios-filled/100/000000/marker.png" alt="Localização" class="img-boas-vindas">
+                <p>Digite uma cidade para começar</p>
+            </div>
+
+            <div class="dados__clima">
+                <div class="dados__clima__chuva">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3105/3105807.png" alt="Ícone de pingo d'água">
+                    <p class="probabilidade-chuva">%</p>
+                </div>
+
+                <div class="dados__clima__chuva">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1506/1506761.png" alt="Ícone de vento">
+                    <p class="velocidade-vento">km/h</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="./js/api.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
